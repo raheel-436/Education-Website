@@ -139,3 +139,24 @@ nav button {
 .nav__menu a:hover {
   color: var(--color-bg2);
 }
+
+/*Header Styling */
+header {
+  height: 70vh;
+  position: relative;
+  top: 5rem; /*pushing it 5rem down from the top which is under the navbar*/
+  overflow: hidden; /*below 70vh any content of header tag will be hidden*/
+  margin-bottom: 5rem;
+}
+
+.header__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /*split into 2 equal parts*/
+  align-items: center;
+  gap: 5rem;
+  height: 100%; /*100% of 70vh*/
+}
+
+.header__left p {
+  margin: 1rem 0 2.4rem; /*top, left-right, bottom*/
+}
