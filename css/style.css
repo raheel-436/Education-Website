@@ -114,6 +114,13 @@ nav {
   z-index: 11;
 }
 
+/* Change Navbar style on scroll using JS start*/
+.window-scroll {
+  background-color: var(--color-primary);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+/* Change Navbar style on scroll using JS end*/
+
 .nav__container {
   height: 100%; /*100% of the parent height which is 5rem :> defined in nav selector */
   display: flex;
