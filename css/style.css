@@ -460,4 +460,52 @@ footer ul li a:hover {
     background-color: var(--color-bg2);
     color: var(--color-white);
   }
+
+  /*Header*/
+  header {
+    height: 52vh;
+    margin-bottom: 4rem;
+  }
+
+  .header__container {
+    gap: 0;
+    padding-bottom: 3rem;
+  }
+
+  /*Categories Section*/
+  .categories {
+    height: auto;
+  }
+
+  .categories__container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .categories__left {
+    margin-right: 0;
+  }
+
+  /*Popular Courses Section*/
+  .courses {
+    margin-top: 0;
+  }
+
+  .courses__container {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  /*Faqs Section*/
+  .faqs__container {
+    grid-template-columns: 1fr;
+  }
+  .faq {
+    padding: 1.5rem;
+  }
+
+  /*footer Section*/
+
+  .footer__container {
+    grid-template-columns: 1fr 1fr;
+  }
 }
