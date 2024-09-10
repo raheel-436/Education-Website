@@ -118,9 +118,6 @@ textarea {
 
 /*Responsiveness (Mobiles)*/
 @media screen and (max-width: 600px) {
-  body {
-    background: red;
-  }
   .contact__container {
     grid-template-columns: 1fr;
     gap: 2rem;
